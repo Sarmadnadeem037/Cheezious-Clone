@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cheezious</title>
+    <link rel="stylesheet" href="./cheezious.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- //////////////////////////////////////// -->
+
+
+</head>
+<header>
+    <!-- navbar starts -->
+    <div class="nav">
+        <div class="navbar">
+            <a class="navbartoggle" href="#"><img src="../Assets/cheeziouslogotoggler.jpeg" alt=""style="width: 30px; height: 30px;"></a>
+            <a class="navbarlogo" href="#"><img src="../Assets/cheeziouslogo.jpeg" alt=""style="width:150 px; height: 35px;"></a>
+        </div>
+            <div class="buttons1">
+                <button id="b1"><a href="" style="text-decoration: none; color: black;"><i class="fa-solid fa-cart-shopping"></i>CART</a></button>
+                <button id="b2"><a href="./loginpage.html" style="text-decoration: none; color: black;"><i class="fa-solid fa-user"></i>LOGIN</a></button>
+            </div>
+    </div>
+    
+    <!-- navbar ends -->
+</header>
+
+<body>
+    <!-- image carazole start -->
+
+    <div class="imageslider">
+    <div class="slider"><img src="../Assets/cheeziouspage pic1.jpeg" alt="" class="imgs"></div>
+    <!-- <div class="slider"><img src="../Assets/cheeziouspage pic2.jpeg" alt="" class="imgs"></div> -->
+    <!-- <div class="slider"><img src="../Assets/cheeziouspage pic3.jpeg" alt="" class="imgs"></div> -->
+    <!-- <div class="slider"><img src="../Assets/cheeziouspage pic4.jpeg" alt="" class="imgs"></div> -->
+    </div>
+    <!-- image carazole ends -->
+
+     <!-- menu bar starts -->
+     <div class="container1">
+        <div class="one">
+            <h1>Explore Menu</h1>
+        </div>
+        <div class="two"><a href="#" style="text-decoration:none; color: #F15B25;">VIEW ALL</a></div>
+    </div>
+    <!-- menu bar ends -->
+    <br><br>
+
+    <!--swiper starts -->
+
+   <div class="menu-section">
+     <div class="swiper mySwiper">
+  <div class="swiperonly">
+<a href="#" style="text-decoration: none;"><div class="swiperslide" ><img src="../assets/card1.jpeg" alt="Pizza">
+        <p>TURN UP THE HEAT</p>
+      </div></a>
+<a href="#" style="text-decoration: none;"><div class="swiperslide"><img src="../assets/card2.jpeg" alt="Starters">
+        <p>STARTERS</p>
+      </div></a>
+<a href="#" style="text-decoration: none;"><div class="swiperslide"><img src="../assets/card3.jpeg" alt="Local">
+        <p>SOMEWHAT LOCAL</p>
+      </div></a>
+<a href="#" style="text-decoration: none;"><div class="swiperslide"><img src="../assets/card4.jpeg" alt="Sooper">
+        <p>SOMEWHAT SOOPER</p>
+      </div></a>
+    <!-- <a href="#" style="text-decoration: none;"><div class="swiperslide"><img src="../assets/card5.jpeg" alt="Sooper">
+        <p>SOMEWHAT SOOPER</p>
+  </div></a> -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  </div>
+   </div>
+ <script src="./script.js">
+  const swiper = new Swiper(".menu-section", {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1024: { slidesPerView: 4 },
+      768: { slidesPerView: 2 },
+      480: { slidesPerView: 1 },
+    }
+  });
+</script>
+<!-- swiper ends -->
+    
+    <!-- award pics start -->
+    <div class="picbox1">
+        <ul class="pics1">
+            <li class="pic"><img src="../Assets/pic1.jpeg" alt="" class="img01">
+                <h2 class="text1">Delivering cheezy khushiyan</h2>
+            </li>
+            <li class="pic"><img src="../Assets/pic2.jpeg" alt="" class="img01">
+                <h2 class="text1">Fastest Growing Brand of the Year</h2>
+            </li>
+            <li class="pic"><img src="../Assets/pic3.jpeg" alt="" class="img01">
+                <h2 class="text1">Made with fresh, local ingredients and love</h2>
+            </li>
+        </ul>
+    </div>
+    <!-- award pics ends -->
+    <br><br><br>
+    <!-- mobile app pic box starts -->
+    <div class="imagebox2">
+        <div class="img001"><a href="#"><img src="../assets/backgroundpic01.jpeg" alt="" class="img002"></a></div>
+    </div>
+    <!-- mobile app pic box ends -->
+    <br>
+    <br>
+    <!-- blogs bar starts -->
+    <div class="container2">
+        <div class="three">
+            <h1>Blogs</h1>
+        </div>
+        <div class="four"><a href="./blogpage.html" style="text-decoration:none; color: #F15B25;">VIEW ALL</a></div>
+    </div>
+    <!-- blogs bar ends -->
+
+    <!-- blogs bar pics start -->
+    <div class="picbox2">
+        <ul class="pics2">
+            <li class="picture"><a href="./blog1.html"><img src="../Assets/picture2.jpeg" alt="" class="img02"></a></li>
+            <li class="picture"><a href="./blog2.html"><img src="../Assets/picture1.jpeg" alt="" class="img02"></a></li>
+            <li class="picture"><a href="./blog3.html"><img src="../Assets/picture3.jpeg" alt="" class="img02"></a></li>
+        </ul>
+    </div>
+    <!-- blogs bar pics end -->
+    <br>
+    <!-- subscribe box start -->
+    <div class="last1">
+        <div class="lastone">
+            <h1 class="texxt1">
+                <pre>Special Offers &
+News</pre>
+            </h1>
+            <br>
+            <h2 class="texxt2">
+                <pre>Subscribe now for news, promotions and more
+delivered right to your inbox</pre>
+            </h2>
+            <br><br>
+            <lable for=""></lable>
+            <input class="emailfooter" type="email" email="email" value placeholder="    Enter Email Adress" required style="font-size:large; padding-left: 10px;">
+            <br><br>
+            <button type="submit" class="buttonsubscribe">SUBSCRIBE</button>
+        </div>
+        <div class="lasttwo"></div>
+    </div>
+    <!-- subscribe box ends -->
+
+    <!-- footer starts -->
+    <footer class="footer1">
+        <div class="bottomtext1"><img src="../Assets/footertag.jpeg" alt="" class="texttag1">
+            <h5 class="texttag2">Cheezious Copyright © 2025. All Rights Reserved.</h5>
+        </div>
+        <div class="bottomtext2">
+            <h6><a href="" style="text-decoration: none; color: black;">TERMS & CONDITIONS</a> | <a href=""
+                    style="text-decoration: none;color: black;">PRIVACY POLICY</a></h6>
+        </div>
+        <div class="fixtag1">
+            <button class="fixbutton">ORDER NOW</button>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+</body>
+
+</html>

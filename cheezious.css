@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+/* navbar starts */
+.nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 76px;
+    box-shadow: 0px .2px .5px rgb(171, 171, 171);
+
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons1{
+    display: flex;
+    align-items: center;
+}
+
+#b1 {
+    background: #FEDC00;
+    border: 0px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 22px;
+    margin-right: 25px;
+
+}
+
+#b1:hover {
+    background-color: rgb(140, 140, 140);
+}
+
+#b2 {
+    background: #FEDC00;
+    border: 0px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 28px;
+    margin-right: 20px;
+}
+
+#b2:hover {
+    background-color: rgb(140, 140, 140);
+
+}
+.navbartoggle{
+    margin-left: 16px;
+}
+.navbarlogo{
+    margin-left:16px;
+}
+
+/* navbar ends */
+
+/* img auto slider start */
+
+.imageslider{
+    display:flex;
+
+}
+.slider{
+    width: 100%;
+}
+.imgs{
+    height: 372px;
+    margin-top: 76px;
+}
+/* img auto slider ends */
+
+/* menu bar starts */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 15px;
+    margin-top: 62px;
+}
+
+.one {
+    margin-left: 80px;
+    font-weight: lighter;
+}
+
+.two {
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* menu bar ends */
+
+
+/* swiper starts */
+
+.menu-section {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  
+
+}
+
+.swiper {
+  width: 90%;
+  text-align: center;
+
+}
+.swiperonly{
+  /* innerborderthenswiperwrapper   */
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(143, 74, 74, 0.05);
+  transition: transform 0.3s;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiperslide {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #f58634;
+  border-radius: 16px;
+  /* background-color: #f15b25; */
+  padding: 5px;
+  margin: 20px;
+}
+
+.swiperslide:hover {
+  transform: scale(1.05);
+}
+
+.swiperslide img {
+  height: 150px;
+
+}
+
+.swiperslide p {
+  font-weight: bold;
+  margin-top: 10px;
+  color: black;
+}
+.swiper-button-next{
+    background-color:transparent;
+}
+.swiper-button-prev{
+    background-color: transparent;
+}
+
+
+/* swiper ends */
+
+/*  award pics start*/
+.picbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pics1 .pic {
+    background-color: #ffffff;
+    border-radius: 12px;
+    text-decoration: none;
+    height: 454px;
+    width: 348px;
+
+}
+
+.img01 {
+    height: 348px;
+    width: 348px;
+    border-radius: 15px;
+}
+
+.text1 {
+    margin: 32px 0px 15px;
+    font-weight: 600;
+}
+
+.pics1 {
+    list-style: none;
+    display: flex;
+
+}
+
+.pic {
+    padding: 12px;
+}
+
+/*  award pics ends*/
+
+/*mobile app pic box starts */
+.imagebox2 {
+    height: 500px;
+    width: 1108px;
+    margin-left: 70px;
+}
+
+.img002 {
+    height: 450px;
+    width: 1108px;
+}
+
+/* mobile app pic box ends*/
+
+/* blogs bar starts */
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 15px;
+    margin-top: 42px;
+}
+
+.three {
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.four {
+    margin-right: 70px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/* blogs bar ends*/
+
+/* blogs bar pics start  */
+.pics2 .picture {
+    background-color: #ffffff;
+    text-decoration: none;
+
+}
+
+.img02 {
+    height: 352px;
+    width: 352px;
+}
+
+.pics2 {
+    list-style: none;
+    display: flex;
+    margin-left: 70px;
+}
+
+.picture {
+    padding: 10px;
+}
+
+/* blogs bar pics ends */
+
+
+/* subscribe box starts */
+.last1 {
+    height: 490px;
+    width: 100%;
+    background-image: url(../Assets/backgroung\ picturefooter.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.lastone {
+    height: 300px;
+    width: 580px;
+    margin-bottom: 50px;
+}
+
+.lasttwo {
+    height: 350px;
+    width: 512px;
+
+}
+
+.texxt1 {
+    margin-top: 40px;
+    color: #f15b25;
+}
+
+.buttonsubscribe {
+    background-color: #FEDC00;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    font-weight:500;
+}
+
+.buttonsubscribe:hover {
+    background-color: rgb(140, 140, 140);
+}
+
+.emailfooter {
+    height: 61px;
+    width: 560px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.texxt2 {
+    font-weight: 400;
+}
+
+/* subscribe box ends */
+
+/* footer starts */
+.footer1 {
+
+    height: 111px;
+    width: 100%;
+    background: #f8f8f8;
+    margin-top: 32px;
+}
+
+.texttag1 {
+    width: 21px;
+    height: 21px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.texttag2 {
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.bottomtext1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.bottomtext2 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.fixtag1 {
+    position: fixed;
+    bottom: 50px;
+    left: 1065px;
+    z-index: 999;
+}
+/* --- fixbutton ---*/
+.fixbutton {
+    border-radius: 10px;
+    background-color: #f15b25;
+    height: 42px;
+    width: 121px;
+    padding: 1px;
+    border: 0px;
+    color: #ffffff;
+    font-weight: 650;
+}
+
+/* footer ends */
+/* ........................................................... */
+/* login page starts */
+
+.muibox1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+
+.loginus {
+    margin-left: 170px;
+    margin-bottom: 110px;
+}
+
+.ostline {
+    text-align: center;
+}
+
+.tndline {
+    margin-top: 20px;
+    text-align: center;
+    color: #8c8c8c;
+}
+
+.but1 {
+    height: 52px;
+    width: 400px;
+    margin-top: 40px;
+    padding: 8px 25px;
+    background-color: #FEDC00;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.but1:hover {
+    background-color: rgb(140, 140, 140);
+    ;
+
+}
+
+.but2 {
+    height: 52px;
+    width: 400px;
+    margin-top: 25px;
+    padding: 8px 25px;
+    background-color: #ffffff;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.but2:hover {
+    background-color: #f15b25;
+    color: #ffffff;
+}
+
+.fa-solid {
+    margin-right: 20px;
+}
+
+.loginpic {
+    margin-left: 200px;
+}
+
+.chezlog {
+    position: fixed;
+    top: 18px;
+    left: 33px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* blogpage */
+
+.navbarblog{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 76px;
+    box-shadow: 0px .2px .5px rgb(171, 171, 171);
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 999;
+    width: 100%;
+}
+
+
+
+
+/* fieldset1 starts*/
+.field1{
+      display: flex; 
+      border-radius: 10px; 
+      border: 0px;
+      height: 40px; 
+      width: 500px; 
+      background-color: #f8f8f8; 
+      padding: 0px 10px;
+      align-items: center;
+
+}
+/* fieldset1 ends */
+/* fieldset2 starts */
+.field2{
+       display: flex; 
+       border-radius: 10px; 
+       border: 1px solid silver;
+       height: 40px; 
+       width: 180px; 
+       padding: 0px 10px;
+       align-items: center;
+}
+#searchtxtt{
+    color: silver; 
+    font-weight: 500;
+    font-size: 1.1rem; 
+    text-align: center; 
+    justify-content: center; 
+    margin-left: 10px;
+}
+.inptyp{
+    color: silver; 
+    font-weight: 500;
+    font-size: 1.1rem; 
+    text-align: center; 
+    justify-content: center; 
+    background-color: #f8f8f8;
+    height:30px;
+}
+/* fieldsetends */
+
+/* login and cart button starts */
+.buttons2{
+    display: flex;
+    align-items: center;
+}
+
+#b3 {
+    background: #FEDC00;
+    border: 0px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 22px;
+    margin-left: 0px;
+
+}
+
+#b3:hover {
+    background-color: rgb(140, 140, 140);
+}
+
+#b4 {
+    background: #FEDC00;
+    border: 0px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 24px;
+    margin-left: 20px;
+}
+
+#b4:hover {
+    background-color: rgb(140, 140, 140);
+
+}
+/* login and cart button ends */
+
+/* blogboxes starts */
+.blogparent{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 38px;
+    margin-right: 50px;
+}
+.bolgtxt{
+    margin-left: 58px;
+    margin-bottom: 30px;
+}
+.firstbox{
+    gap: 20px;
+}
+.secondbox{
+    margin-left: 40px;
+}
+
+
+/* blogboxex ends */
+
+/* footer and fix button */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/*----------- blog1 ------------*/
+.heading1{
+    margin-left: 80px;
+    padding: 20px;
+}
+.headingh1{
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 80px;
+
+}
+.introbox{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    padding: 20px;
+    margin-top: -20px;
+}
+.boxp{
+   font-family: "roboto";
+    font-size: 15px; 
+}
+.hrtag{
+    margin: 2px 0px;
+    flex-shrink: 0;
+    border-style: solid;
+    border-width: 0px thin 0px 0px;
+    height: auto;
+    align-self: stretch;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hrtagg{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+
+}
+/* topimage */
+.topimg1{
+    margin-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.topimg1 img{
+    margin-left: 18%;
+    margin-right: 20%;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    height:510px;
+    width: auto;
+    
+}
+@media all and (max-width:1150px){
+    .topimg1 img{
+    height:480px;
+    margin-left: 16%;
+    margin-right: 10%;
+    }
+    
+}
+@media all and (max-width:1000px){
+    .topimg1 img{
+    height:440px;
+    width: auto;
+    margin-left: 14%;
+    margin-right: 20%;
+    }
+    
+}
+
+@media all and (max-width:900px){
+    .topimg1 img{
+    height:420px;
+    width: auto;
+    margin-left: 14%;
+    margin-right: 14%;
+    }
+    
+}
+@media all and (max-width:850px){
+    .topimg1 img{
+    height:360px;
+    width: auto;
+     margin-left: 12%;
+    margin-right: 20%;
+    }
+    
+}
+@media all and (max-width:700px){
+    .topimg1 img{
+    height:310px;
+    width: auto;
+     margin-left: 12%;
+    margin-right: 20%;
+    }
+    
+}
+@media all and (max-width:600px){
+    .topimg1 img{
+    height:280px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    }
+    
+}
+@media all and (max-width:550px){
+    .topimg1 img{
+    height:240px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    }
+    
+}
+@media all and (max-width:450px){
+    .topimg1 img{
+    height:200px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 20%;
+
+    }
+    
+}
+
+
+/* textbox */
+.textboxx1{
+    /* align-items: center; */
+    margin-left: 230px;
+    margin-right: 230px;
+    word-spacing: 0.8px;
+    line-height: 30px;
+}
+@media all and (max-width:1150px){
+    .textboxx1{
+        margin-left: 170px;
+        margin-right: 190px;
+    }
+}
+@media all and (max-width:1100px){
+    .textboxx1{
+        margin-left: 170px;
+        margin-right: 180px;
+    }
+}
+@media all and (max-width:1000px){
+    .textboxx1{
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+}
+@media all and (max-width:900px){
+    .textboxx1{
+        margin-left: 130px;
+        margin-right: 110px;
+    }
+}
+@media all and (max-width:650px){
+    .textboxx1{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+}
+@media all and (max-width:550px){
+    .textboxx1{
+        margin-left: 50px;
+        margin-right: 110px;
+    }
+}
+
+
+
+
+
